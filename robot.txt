@@ -1,0 +1,3 @@
+User-Agent: *    
+Disallow: index.php
+Disallow: /cv_jeremyB_2014.pdf‎

@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Test Shadowbox</title>
+
+<link rel="stylesheet" type="text/css" href="doc/css/style.css">
+
+<script type="text/javascript" src="doc/demo.js"></script>
+<script type="text/javascript" src="src/adapter/shadowbox-base.js"></script>
+<script type="text/javascript" src="src/shadowbox.js"></script>
+<script type="text/javascript">
+
+Shadowbox.loadSkin('classic', 'src/skin');
+Shadowbox.loadLanguage('en', 'src/lang');
+Shadowbox.loadPlayer(['flv', 'html', 'iframe', 'img', 'qt', 'swf', 'wmp'], 'src/player');
+window.onload = function(){
+
+    Shadowbox.init( );
+    initDemos();
+};
+
+</script>
+</head>
+
+<body >
+
+<div id="wrapper">
+
+    <div id="content">
+
+      
+
+        <h3>Flash</h3>
+
+            <a rel="shadowbox;width=720;height=480" class="option" title="Girl Skipping" href="gallery/skip.swf">Single SWF</a>
+   
+           
+
+        <div id="footer">Copyright &copy; 2007-2008 <a href="http://www.mjijackson.com">Michael J. I. Jackson</a>, all rights reserved.</div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
